@@ -1,9 +1,14 @@
 ﻿using Business.Abstract;
+using Business.CCS;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
+using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
+using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -14,27 +19,27 @@ namespace Business.Concrete
     {
         // Constructor Injection
         IProductDal _productDal;
+        ILogger _logger;
 
-        public ProductManager(IProductDal productDal)
+        public ProductManager(IProductDal productDal , ILogger logger)
         {
             _productDal = productDal;
+            _logger = logger;
         }
         //[LogAspect]
         //[Validate]
         //[RemoveCache]
         //[Transaction]
         //[Performance]
+
+        [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {
-            //business codes
 
-            if (product.ProductName.Length < 2)
-            {
-                return new ErrorResult(Messages.ProductNameInvalid);
-            }
-
-            _productDal.Add(product);
-            return new SuccessResult(Messages.ProductAdded);
+                //business codes
+                _productDal.Add(product);
+                return new SuccessResult(Messages.ProductAdded);
+           
         }
 
         public IDataResult<List<Product>> GetAll()
@@ -42,7 +47,7 @@ namespace Business.Concrete
             // Bussiness code lari --
             // yetkisi vs vs
 
-            if (DateTime.Now.Hour == 22)
+            if (DateTime.Now.Hour == 9)
             {
                 return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
             }

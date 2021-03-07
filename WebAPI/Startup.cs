@@ -32,8 +32,8 @@ namespace WebAPI
             // Autofac , Ninject , CastleWindsor 
             // AOP => Autofac
             services.AddControllers();
-            services.AddSingleton<IProductService,ProductManager>(); // Datasiz
-            services.AddSingleton<IProductDal, EfProductDal>();
+            //services.AddSingleton<IProductService,ProductManager>(); // Datasiz
+            //services.AddSingleton<IProductDal, EfProductDal>();
             //services.AddTransient //Datali
 
         }
