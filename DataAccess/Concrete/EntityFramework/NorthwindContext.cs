@@ -1,6 +1,8 @@
 ﻿using Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using System;
+using Microsoft.Extensions.Configuration.Json;
 using System.Collections.Generic;
 using System.Text;
 
@@ -11,8 +13,15 @@ namespace DataAccess.Concrete.EntityFramework
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //base.OnConfiguring(optionsBuilder);
+            base.OnConfiguring(optionsBuilder);
             optionsBuilder.UseSqlServer(@"Server=(localdb)\ProjectsV13;Database=Northwind;Trusted_Connection=true");
+
+            //IConfigurationRoot configuration = new ConfigurationBuilder()
+            //.SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
+            //.AddJsonFile("appsettings.json")
+            //.Build();
+            //optionsBuilder.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
+
         }
 
         public DbSet<Product> Products { get; set; }
