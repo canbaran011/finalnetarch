@@ -6,7 +6,6 @@ C:\Users\botart2\source\repos\FinalProject\WebAPI\bin\Debug\netcoreapp3.1\WebAPI
 C:\Users\botart2\source\repos\FinalProject\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.runtimeconfig.dev.json
 C:\Users\botart2\source\repos\FinalProject\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.dll
 C:\Users\botart2\source\repos\FinalProject\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.pdb
-C:\Users\botart2\source\repos\FinalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csprojAssemblyReference.cache
 C:\Users\botart2\source\repos\FinalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfoInputs.cache
 C:\Users\botart2\source\repos\FinalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfo.cs
 C:\Users\botart2\source\repos\FinalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CoreCompileInputs.cache
@@ -77,3 +76,4 @@ C:\Users\botart2\source\repos\FinalProject\WebAPI\bin\Debug\netcoreapp3.1\Micros
 C:\Users\botart2\source\repos\FinalProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Users\botart2\source\repos\FinalProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\Users\botart2\source\repos\FinalProject\WebAPI\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\botart2\source\repos\FinalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.AssemblyReference.cache

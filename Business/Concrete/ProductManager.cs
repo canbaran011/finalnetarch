@@ -35,7 +35,8 @@ namespace Business.Concrete
         //[RemoveCache]
         //[Transaction]
         //[Performance]
-
+        //Claim
+        //[SecuredOperation("product.add")]
         [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {   //business codes // yetki
@@ -127,6 +128,11 @@ namespace Business.Concrete
 
 
             return default;
+        }
+
+        public IResult GetByReOrderLevel(int id)
+        {
+            throw new NotImplementedException();
         }
     }
 }

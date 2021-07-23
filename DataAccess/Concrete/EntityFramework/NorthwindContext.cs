@@ -14,7 +14,7 @@ namespace DataAccess.Concrete.EntityFramework
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\ProjectsV13;Database=Northwind;Trusted_Connection=true");
+            optionsBuilder.UseSqlServer(@"Server=DESKTOP-3PLQBCK\SQLEXPRESS;Database=Northwind;Trusted_Connection=true");
 
             //IConfigurationRoot configuration = new ConfigurationBuilder()
             //.SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
