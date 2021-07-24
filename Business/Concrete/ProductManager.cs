@@ -37,7 +37,7 @@ namespace Business.Concrete
         //[Transaction]
         //[Performance]
         //Claim
-        [SecuredOperation("product.add,admin")]
+        [SecuredOperation("admin")]//,product.add
         [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {   //business codes // yetki
@@ -99,7 +99,7 @@ namespace Business.Concrete
         {
             // Bir kategoride en fazla 10 urun olabilir
             var result = _productDal.GetAll(p => p.CategoryId == categoryId).Count;
-            if (result >= 10)
+            if (result >= 20)
             {
                 return new ErrorResult(Messages.ProductCountOfCategoryError);
             }
