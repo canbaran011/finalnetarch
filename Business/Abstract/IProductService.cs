@@ -17,5 +17,7 @@ namespace Business.Abstract
         IResult GetByReOrderLevel(int id);
         IResult Update(Product product);
         IDataResult<Product> GetById(int productId);
+        IResult AddTransactionalTest(Product product);
+        //Transaction uygulamalarda tutarlilik icin yapilir...
     }
 }

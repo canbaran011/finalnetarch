@@ -3,6 +3,9 @@ using Business.BusinessAspects.Autofac;
 using Business.CCS;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Caching;
+using Core.Aspects.Autofac.Performance;
+using Core.Aspects.Autofac.Transaction;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Business;
@@ -15,6 +18,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Transactions;
 
 namespace Business.Concrete
 {
@@ -39,6 +43,7 @@ namespace Business.Concrete
         //Claim
         [SecuredOperation("admin")]//,product.add
         [ValidationAspect(typeof(ProductValidator))]
+        [CacheRemoveAspect("IProductService.Get")]
         public IResult Add(Product product)
         {   //business codes // yetki
             IResult result = BusinessRules.Run(CheckIfProductNameExist(product.ProductName),
@@ -54,7 +59,7 @@ namespace Business.Concrete
             return new SuccessResult(Messages.ProductAdded);
 
         }
-
+        [CacheAspect] // key ,value // 
         public IDataResult<List<Product>> GetAll()
         {
             // Bussiness code lari --
@@ -73,7 +78,8 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.CategoryId == id));
         }
-
+        [CacheAspect]
+        [PerformanceAspect(5)]
         public IDataResult<Product> GetById(int productId)
         {
             return new SuccessDataResult<Product>(_productDal.Get(p => p.ProductId == productId));
@@ -90,6 +96,7 @@ namespace Business.Concrete
         }
 
         [ValidationAspect(typeof(ProductValidator))]
+        [CacheRemoveAspect("IProductService.Get")]
         public IResult Update(Product product)
         {
             throw new NotImplementedException();
@@ -134,6 +141,37 @@ namespace Business.Concrete
         public IResult GetByReOrderLevel(int id)
         {
             throw new NotImplementedException();
+        }
+       // [TransactionScopeAspect]
+        public IResult AddTransactionalTest(Product product)
+        {
+            //using (TransactionScope scope=new TransactionScope())
+            //{
+            //    try
+            //    {
+            //        Add(product);
+            //        if (product.UnitPrice < 10)
+            //        {
+            //            throw new Exception("");
+            //        }
+            //        Add(product);
+            //        scope.Complete();
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        scope.Dispose();
+            //        Console.WriteLine(ex.Message);
+            //        throw;
+            //    }
+            //}
+            //return null;
+            Add(product);
+            if (product.UnitPrice < 10)
+            {
+                throw new Exception("");
+            }
+            Add(product);
+            return null;
         }
     }
 }
