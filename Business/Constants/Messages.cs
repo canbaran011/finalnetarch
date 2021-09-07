@@ -11,6 +11,7 @@ namespace Business.Constants
     {
         public static string UserRegistered="Kullanici Kaydedildi";
         public static string ProductAdded = "Urun Eklendi";
+        public static string ProductUpdated = "Urun Guncellendi";
         public static string ProductNameInvalid = "Urun ismi gecersiz";
         public static string MaintenanceTime = "Sistem Bakim Saatinde";
         public static string ProductListed = "Urunler Listelendi";

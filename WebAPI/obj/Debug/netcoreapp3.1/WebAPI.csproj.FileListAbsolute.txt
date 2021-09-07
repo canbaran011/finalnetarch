@@ -78,3 +78,8 @@ C:\Users\botart2\source\repos\FinalProject\WebAPI\bin\Debug\netcoreapp3.1\Micros
 C:\Users\botart2\source\repos\FinalProject\WebAPI\bin\Debug\netcoreapp3.1\System.Text.Json.dll
 C:\Users\botart2\source\repos\FinalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.AssemblyReference.cache
 C:\Users\botart2\source\repos\FinalProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\botart2\source\repos\FinalProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\botart2\source\repos\FinalProject\WebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\botart2\source\repos\FinalProject\WebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\botart2\source\repos\FinalProject\WebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\botart2\source\repos\FinalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cs

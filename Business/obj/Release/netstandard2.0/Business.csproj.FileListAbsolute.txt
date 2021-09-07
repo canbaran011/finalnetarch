@@ -7,10 +7,10 @@ C:\Users\botart2\source\repos\FinalProject\Business\bin\Release\netstandard2.0\E
 C:\Users\botart2\source\repos\FinalProject\Business\bin\Release\netstandard2.0\DataAccess.pdb
 C:\Users\botart2\source\repos\FinalProject\Business\bin\Release\netstandard2.0\Entities.pdb
 C:\Users\botart2\source\repos\FinalProject\Business\bin\Release\netstandard2.0\Core.pdb
-C:\Users\botart2\source\repos\FinalProject\Business\obj\Release\netstandard2.0\Business.csprojAssemblyReference.cache
 C:\Users\botart2\source\repos\FinalProject\Business\obj\Release\netstandard2.0\Business.AssemblyInfoInputs.cache
 C:\Users\botart2\source\repos\FinalProject\Business\obj\Release\netstandard2.0\Business.AssemblyInfo.cs
 C:\Users\botart2\source\repos\FinalProject\Business\obj\Release\netstandard2.0\Business.csproj.CoreCompileInputs.cache
 C:\Users\botart2\source\repos\FinalProject\Business\obj\Release\netstandard2.0\Business.csproj.CopyComplete
 C:\Users\botart2\source\repos\FinalProject\Business\obj\Release\netstandard2.0\Business.dll
 C:\Users\botart2\source\repos\FinalProject\Business\obj\Release\netstandard2.0\Business.pdb
+C:\Users\botart2\source\repos\FinalProject\Business\obj\Release\netstandard2.0\Business.csproj.AssemblyReference.cache

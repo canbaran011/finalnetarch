@@ -5,5 +5,6 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\botart2\source\repos\FinalProject\WebAPI\bin\Release\netcoreapp3.1\publish\</_PublishTargetUrl>
+    <History>True|2021-08-25T14:33:34.5539025Z;True|2021-08-25T16:41:15.0747110+03:00;True|2021-08-25T16:36:56.4452930+03:00;True|2021-08-25T16:28:07.3964909+03:00;True|2021-08-25T16:06:02.3915519+03:00;True|2021-08-25T15:54:06.3345351+03:00;</History>
   </PropertyGroup>
 </Project>

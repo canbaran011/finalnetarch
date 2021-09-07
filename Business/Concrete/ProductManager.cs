@@ -41,34 +41,34 @@ namespace Business.Concrete
         //[Transaction]
         //[Performance]
         //Claim
-        [SecuredOperation("admin")]//,product.add
-        [ValidationAspect(typeof(ProductValidator))]
-        [CacheRemoveAspect("IProductService.Get")]
+        //[SecuredOperation("admin")]//,product.add --last
+        //[ValidationAspect(typeof(ProductValidator))] --last
+        //[CacheRemoveAspect("IProductService.Get")] --last
         public IResult Add(Product product)
-        {   //business codes // yetki
-            IResult result = BusinessRules.Run(CheckIfProductNameExist(product.ProductName),
-                CheckIfProductCountOfCategory(product.CategoryId),
-                CheckIfCategoryLimitExceded());
-            if (result != null)
-            {
-                return result;
-            }
+        {   //business codes // yetki --last
+            //IResult result = BusinessRules.Run(CheckIfProductNameExist(product.ProductName),
+            //    CheckIfProductCountOfCategory(product.CategoryId),
+            //    CheckIfCategoryLimitExceded());
+            //if (result != null)
+            //{
+            //    return result;
+            //}
 
             _productDal.Add(product); 
             
             return new SuccessResult(Messages.ProductAdded);
 
         }
-        [CacheAspect] // key ,value // 
+        //[CacheAspect] // key ,value // --last
         public IDataResult<List<Product>> GetAll()
         {
             // Bussiness code lari --
             // yetkisi vs vs
-
-            if (DateTime.Now.Hour == 9)
-            {
-                return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
-            }
+            // --last
+            //if (DateTime.Now.Hour == 9)
+            //{
+            //    return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
+            //}
 
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(), Messages.ProductListed);
 
@@ -78,8 +78,8 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.CategoryId == id));
         }
-        [CacheAspect]
-        [PerformanceAspect(5)]
+        //[CacheAspect] --last
+        //[PerformanceAspect(5)] --last
         public IDataResult<Product> GetById(int productId)
         {
             return new SuccessDataResult<Product>(_productDal.Get(p => p.ProductId == productId));
@@ -95,11 +95,12 @@ namespace Business.Concrete
             return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails());
         }
 
-        [ValidationAspect(typeof(ProductValidator))]
-        [CacheRemoveAspect("IProductService.Get")]
+        //[ValidationAspect(typeof(ProductValidator))] --last
+        //[CacheRemoveAspect("IProductService.Get")] --last
         public IResult Update(Product product)
         {
-            throw new NotImplementedException();
+            _productDal.Update(product);
+            return new SuccessDataResult<Product>(Messages.ProductUpdated);
         }
 
         private IResult CheckIfProductCountOfCategory(int categoryId)
@@ -131,9 +132,6 @@ namespace Business.Concrete
                 return new ErrorResult(Messages.CategoryLimitExceded);
 
             }
-
-
-
 
             return default;
         }
