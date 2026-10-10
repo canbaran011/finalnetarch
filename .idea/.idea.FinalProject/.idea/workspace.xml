@@ -7,199 +7,258 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcdbdd2c-1ede-4f41-86a4-99643656dae5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FinalProject/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FinalProject/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FinalProject/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FinalProject/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FinalProject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FinalProject/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FinalProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FinalProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/FinalProject/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/FinalProject/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/FinalProject/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/FinalProject/config/applicationhost.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/FinalProject/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/FinalProject/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/Abstract/IAuthService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/Abstract/IAuthService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/Abstract/ICategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/Abstract/ICategoryService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/Abstract/IProductService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/Abstract/IProductService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/Abstract/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/Abstract/IUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/Business.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Business/Business.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/Business.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/Business/Business.csproj.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/BusinessAspects/Autofac/SecuredOperation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/BusinessAspects/Autofac/SecuredOperation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/CCS/DatabaseLogger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/CCS/DatabaseLogger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/CCS/FileLogger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/CCS/FileLogger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/CCS/ILogger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/CCS/ILogger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/Concrete/AuthManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/Concrete/AuthManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/Concrete/CategoryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/Concrete/CategoryManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/Concrete/ProductManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/Concrete/ProductManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/Concrete/UserManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/Concrete/UserManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/Constants/Messages.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/Constants/Messages.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/netstandard2.0/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/netstandard2.0/Business.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/netstandard2.0/Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/netstandard2.0/Business.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/netstandard2.0/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/netstandard2.0/Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/netstandard2.0/Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/netstandard2.0/Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/netstandard2.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/netstandard2.0/DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/netstandard2.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/netstandard2.0/DataAccess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/netstandard2.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/netstandard2.0/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/netstandard2.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/netstandard2.0/Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/ValidationRules/FluentValidation/ProductValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/ValidationRules/FluentValidation/ProductValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/netstandard2.0/Business.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/netstandard2.0/Business.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/bin/Release/netstandard2.0/Business.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Release/netstandard2.0/Business.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/bin/Release/netstandard2.0/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Release/netstandard2.0/Business.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/bin/Release/netstandard2.0/Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Release/netstandard2.0/Business.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/bin/Release/netstandard2.0/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Release/netstandard2.0/Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/bin/Release/netstandard2.0/Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Release/netstandard2.0/Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/bin/Release/netstandard2.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Release/netstandard2.0/DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/bin/Release/netstandard2.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Release/netstandard2.0/DataAccess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/bin/Release/netstandard2.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Release/netstandard2.0/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/bin/Release/netstandard2.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Release/netstandard2.0/Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Business.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Business.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Business.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Business.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Business.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Business.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/netstandard2.0/Business.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/netstandard2.0/Business.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/netstandard2.0/Business.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/netstandard2.0/Business.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/netstandard2.0/Business.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/netstandard2.0/Business.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/netstandard2.0/Business.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/netstandard2.0/Business.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/netstandard2.0/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/netstandard2.0/Business.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/netstandard2.0/Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/netstandard2.0/Business.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/netstandard2.0/Business.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/netstandard2.0/Business.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/netstandard2.0/Business.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/netstandard2.0/Business.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Release/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Release/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Release/netstandard2.0/Business.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Release/netstandard2.0/Business.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Release/netstandard2.0/Business.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Release/netstandard2.0/Business.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Release/netstandard2.0/Business.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Release/netstandard2.0/Business.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Release/netstandard2.0/Business.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Release/netstandard2.0/Business.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Release/netstandard2.0/Business.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Release/netstandard2.0/Business.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Release/netstandard2.0/Business.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Release/netstandard2.0/Business.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/obj/Release/netstandard2.0/Business.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/obj/Release/netstandard2.0/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Release/netstandard2.0/Business.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/obj/Release/netstandard2.0/Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Release/netstandard2.0/Business.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/ConsoleUI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/ConsoleUI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/bin/Debug/netcoreapp3.1/ConsoleUI.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/bin/Debug/netcoreapp3.1/ConsoleUI.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/bin/Debug/netcoreapp3.1/ConsoleUI.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/bin/Debug/netcoreapp3.1/ConsoleUI.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/bin/Debug/netcoreapp3.1/ConsoleUI.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/bin/Debug/netcoreapp3.1/ConsoleUI.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/obj/ConsoleUI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/obj/ConsoleUI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/obj/ConsoleUI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/obj/ConsoleUI.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/obj/ConsoleUI.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/obj/ConsoleUI.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netcoreapp3.1/ConsoleUI.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netcoreapp3.1/ConsoleUI.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netcoreapp3.1/ConsoleUI.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netcoreapp3.1/ConsoleUI.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netcoreapp3.1/ConsoleUI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netcoreapp3.1/ConsoleUI.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netcoreapp3.1/ConsoleUI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netcoreapp3.1/ConsoleUI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netcoreapp3.1/ConsoleUI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netcoreapp3.1/ConsoleUI.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netcoreapp3.1/ConsoleUI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netcoreapp3.1/ConsoleUI.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netcoreapp3.1/ConsoleUI.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netcoreapp3.1/ConsoleUI.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netcoreapp3.1/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/obj/Debug/netcoreapp3.1/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/obj/Release/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/obj/Release/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/obj/Release/netcoreapp3.1/ConsoleUI.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/obj/Release/netcoreapp3.1/ConsoleUI.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/obj/Release/netcoreapp3.1/ConsoleUI.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/obj/Release/netcoreapp3.1/ConsoleUI.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleUI/obj/Release/netcoreapp3.1/ConsoleUI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/obj/Release/netcoreapp3.1/ConsoleUI.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/obj/Release/netcoreapp3.1/ConsoleUI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/obj/Release/netcoreapp3.1/ConsoleUI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleUI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleUI/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Aspects/Autofac/Caching/CacheAspect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Aspects/Autofac/Caching/CacheAspect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Aspects/Autofac/Caching/CacheRemoveAspect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Aspects/Autofac/Caching/CacheRemoveAspect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Aspects/Autofac/Performance/PerformanceAspect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Aspects/Autofac/Performance/PerformanceAspect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Aspects/Autofac/Transaction/TransactionScopeAspect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Aspects/Autofac/Transaction/TransactionScopeAspect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Aspects/Autofac/Validation/ValidationAspect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Aspects/Autofac/Validation/ValidationAspect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/CrossCuttingConcerns/Caching/ICacheManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/CrossCuttingConcerns/Caching/ICacheManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/CrossCuttingConcerns/Caching/Microsoft/MemoryCacheManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/CrossCuttingConcerns/Caching/Microsoft/MemoryCacheManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/CrossCuttingConcerns/Validation/ValidationTool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/CrossCuttingConcerns/Validation/ValidationTool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/DataAccess/IEntityRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/DataAccess/IEntityRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/DependencyResolvers/CoreModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/DependencyResolvers/CoreModule.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/bin/Debug/netstandard2.0/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Core/bin/Debug/netstandard2.0/Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/bin/Debug/netstandard2.0/Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Core/bin/Debug/netstandard2.0/Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Entities/Concrete/OperationClaim.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/Concrete/OperationClaim.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Entities/Concrete/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/Concrete/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Entities/Concrete/UserOperationClaim.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/Concrete/UserOperationClaim.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Entities/IDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/IDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Entities/IEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entities/IEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Extentions/ClaimExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Extentions/ClaimExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Extentions/ClaimsPrincipalExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Extentions/ClaimsPrincipalExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Extentions/ServiceCollectionExtentions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Extentions/ServiceCollectionExtentions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Utilities/Business/BusinessRules.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Utilities/Business/BusinessRules.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Utilities/Interceptors/AspectInterceptorSelector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Utilities/Interceptors/AspectInterceptorSelector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Utilities/Interceptors/MethodInterception.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Utilities/Interceptors/MethodInterception.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Utilities/Interceptors/MethodInterceptionBaseAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Utilities/Interceptors/MethodInterceptionBaseAttribute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Utilities/IoC/ICoreModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Utilities/IoC/ICoreModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Utilities/IoC/ServiceTool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Utilities/IoC/ServiceTool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Utilities/Results/DataResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Utilities/Results/DataResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Utilities/Results/ErrorDataResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Utilities/Results/ErrorDataResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Utilities/Results/ErrorResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Utilities/Results/ErrorResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Utilities/Results/IDataResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Utilities/Results/IDataResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Utilities/Results/IResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Utilities/Results/IResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Utilities/Results/Result.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Utilities/Results/Result.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Utilities/Results/SuccessDataResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Utilities/Results/SuccessDataResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Utilities/Results/SuccessResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Utilities/Results/SuccessResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Utilities/Security/Encryption/SecurityKeyHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Utilities/Security/Encryption/SecurityKeyHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Utilities/Security/Encryption/SigningCredentialsHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Utilities/Security/Encryption/SigningCredentialsHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Utilities/Security/Hashing/HashingHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Utilities/Security/Hashing/HashingHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Utilities/Security/JWT/AccessToken.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Utilities/Security/JWT/AccessToken.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Utilities/Security/JWT/ITokenHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Utilities/Security/JWT/ITokenHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Utilities/Security/JWT/JwtHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Utilities/Security/JWT/JwtHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Utilities/Security/JWT/TokenOptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Utilities/Security/JWT/TokenOptions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/bin/Debug/netstandard2.0/Core.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core/bin/Debug/netstandard2.0/Core.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/bin/Release/netstandard2.0/Core.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core/bin/Release/netstandard2.0/Core.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/bin/Release/netstandard2.0/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Core/bin/Release/netstandard2.0/Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/bin/Release/netstandard2.0/Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Core/bin/Release/netstandard2.0/Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/obj/Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Core.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/obj/Core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Core.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/obj/Core.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Core.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/obj/Debug/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Debug/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/obj/Debug/netstandard2.0/Core.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Debug/netstandard2.0/Core.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/obj/Debug/netstandard2.0/Core.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Debug/netstandard2.0/Core.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/obj/Debug/netstandard2.0/Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Debug/netstandard2.0/Core.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/obj/Debug/netstandard2.0/Core.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Debug/netstandard2.0/Core.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/obj/Debug/netstandard2.0/Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Debug/netstandard2.0/Core.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/obj/Debug/netstandard2.0/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Debug/netstandard2.0/Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/obj/Debug/netstandard2.0/Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Debug/netstandard2.0/Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/obj/Debug/netstandard2.0/Core.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Debug/netstandard2.0/Core.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/obj/Release/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Release/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/obj/Release/netstandard2.0/Core.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Release/netstandard2.0/Core.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/obj/Release/netstandard2.0/Core.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Release/netstandard2.0/Core.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/obj/Release/netstandard2.0/Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Release/netstandard2.0/Core.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/obj/Release/netstandard2.0/Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Release/netstandard2.0/Core.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/obj/Release/netstandard2.0/Core.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Release/netstandard2.0/Core.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/obj/Release/netstandard2.0/Core.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/obj/Release/netstandard2.0/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Release/netstandard2.0/Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/obj/Release/netstandard2.0/Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/Release/netstandard2.0/Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/Abstract/ICategoryDal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/Abstract/ICategoryDal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/Abstract/ICustomerDal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/Abstract/ICustomerDal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/Abstract/IOrderDal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/Abstract/IOrderDal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/Abstract/IProductDal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/Abstract/IProductDal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/Abstract/IUserDal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/Abstract/IUserDal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/Concrete/EntityFramework/EfCategoryDal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/Concrete/EntityFramework/EfCategoryDal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/Concrete/EntityFramework/EfOrderDal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/Concrete/EntityFramework/EfOrderDal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/Concrete/EntityFramework/EfProductDal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/Concrete/EntityFramework/EfProductDal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/Concrete/EntityFramework/EfUserDal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/Concrete/EntityFramework/EfUserDal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/Concrete/EntityFramework/LogHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/Concrete/EntityFramework/LogHelper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/Concrete/EntityFramework/NorthwindContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/Concrete/EntityFramework/NorthwindContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/netstandard2.0/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/netstandard2.0/Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/netstandard2.0/Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/netstandard2.0/Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/netstandard2.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/netstandard2.0/DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/netstandard2.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/netstandard2.0/DataAccess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/netstandard2.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/netstandard2.0/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/netstandard2.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/netstandard2.0/Entities.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Release/netstandard2.0/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Release/netstandard2.0/Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Release/netstandard2.0/Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Release/netstandard2.0/Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/Concrete/InMemory/InMemoryProductDal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/Concrete/InMemory/InMemoryProductDal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/DataAccess.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/DataAccess.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/netstandard2.0/DataAccess.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/netstandard2.0/DataAccess.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/bin/Release/netstandard2.0/DataAccess.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Release/netstandard2.0/DataAccess.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Release/netstandard2.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Release/netstandard2.0/DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Release/netstandard2.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Release/netstandard2.0/DataAccess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Release/netstandard2.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Release/netstandard2.0/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Release/netstandard2.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Release/netstandard2.0/Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/DataAccess.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/DataAccess.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/DataAccess.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/DataAccess.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/DataAccess.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/DataAccess.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/netstandard2.0/DataAccess.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/netstandard2.0/DataAccess.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/netstandard2.0/DataAccess.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/netstandard2.0/DataAccess.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/netstandard2.0/DataAccess.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/netstandard2.0/DataAccess.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/netstandard2.0/DataAccess.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/netstandard2.0/DataAccess.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/netstandard2.0/DataAccess.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/netstandard2.0/DataAccess.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/netstandard2.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/netstandard2.0/DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/netstandard2.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/netstandard2.0/DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/netstandard2.0/DataAccess.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/netstandard2.0/DataAccess.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Release/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Release/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Release/netstandard2.0/DataAccess.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Release/netstandard2.0/DataAccess.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Release/netstandard2.0/DataAccess.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Release/netstandard2.0/DataAccess.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/obj/Release/netstandard2.0/DataAccess.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Release/netstandard2.0/DataAccess.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Release/netstandard2.0/DataAccess.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Release/netstandard2.0/DataAccess.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/obj/Release/netstandard2.0/DataAccess.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Release/netstandard2.0/DataAccess.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/obj/Release/netstandard2.0/DataAccess.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Release/netstandard2.0/DataAccess.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Release/netstandard2.0/DataAccess.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Release/netstandard2.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Release/netstandard2.0/DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Release/netstandard2.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Release/netstandard2.0/DataAccess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/bin/Debug/netstandard2.0/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/bin/Debug/netstandard2.0/Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/bin/Debug/netstandard2.0/Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/bin/Debug/netstandard2.0/Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/bin/Debug/netstandard2.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/bin/Debug/netstandard2.0/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/bin/Debug/netstandard2.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/bin/Debug/netstandard2.0/Entities.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/bin/Release/netstandard2.0/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/bin/Release/netstandard2.0/Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/bin/Release/netstandard2.0/Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/bin/Release/netstandard2.0/Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Concrete/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Concrete/Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Concrete/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Concrete/Customer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Concrete/Order.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Concrete/Order.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Concrete/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Concrete/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/DTOs/ProductDetailDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/DTOs/ProductDetailDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/DTOs/UserForLoginDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/DTOs/UserForLoginDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/DTOs/UserForRegisterDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/DTOs/UserForRegisterDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Entities.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Entities.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Entities.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Entities.csproj.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/bin/Debug/netstandard2.0/Entities.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/bin/Debug/netstandard2.0/Entities.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entities/bin/Release/netstandard2.0/Entities.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/bin/Release/netstandard2.0/Entities.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/bin/Release/netstandard2.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/bin/Release/netstandard2.0/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/bin/Release/netstandard2.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/bin/Release/netstandard2.0/Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/netstandard2.0/Entities.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/netstandard2.0/Entities.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/netstandard2.0/Entities.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/netstandard2.0/Entities.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/netstandard2.0/Entities.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/netstandard2.0/Entities.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/netstandard2.0/Entities.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/netstandard2.0/Entities.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/netstandard2.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/netstandard2.0/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/netstandard2.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/netstandard2.0/Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/netstandard2.0/Entities.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/netstandard2.0/Entities.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/netstandard2.0/Entities.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/netstandard2.0/Entities.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Release/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Release/netstandard2.0/.NETStandard,Version=v2.0.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Release/netstandard2.0/Entities.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Release/netstandard2.0/Entities.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Release/netstandard2.0/Entities.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Release/netstandard2.0/Entities.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entities/obj/Release/netstandard2.0/Entities.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Release/netstandard2.0/Entities.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Release/netstandard2.0/Entities.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Release/netstandard2.0/Entities.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entities/obj/Release/netstandard2.0/Entities.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Release/netstandard2.0/Entities.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entities/obj/Release/netstandard2.0/Entities.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Release/netstandard2.0/Entities.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Release/netstandard2.0/Entities.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Release/netstandard2.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Release/netstandard2.0/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Release/netstandard2.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Release/netstandard2.0/Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject.sln" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/.config/dotnet-tools.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/.config/dotnet-tools.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Controllers/AuthController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Controllers/ProductsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Controllers/WeatherForecastController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/Properties/PublishProfiles/FolderProfile.pubxml" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Properties/PublishProfiles/FolderProfile.pubxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/Properties/PublishProfiles/FolderProfile.pubxml.user" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Properties/PublishProfiles/FolderProfile.pubxml.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/WeatherForecast.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/WeatherForecast.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/WebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/WebAPI.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/WebAPI.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/WebAPI.csproj.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/appsettings.Development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/Business.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/Business.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/DataAccess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/Entities.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/appsettings.Development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Business.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Business.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/DataAccess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Entities.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Microsoft.Extensions.Configuration.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Microsoft.Extensions.Configuration.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/WebAPI.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/WebAPI.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/WebAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/WebAPI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/WebAPI.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/WebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/WebAPI.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/WebAPI.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/WebAPI.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/WebAPI.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/appsettings.Development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Business.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Business.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/DataAccess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Entities.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Microsoft.Extensions.Configuration.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Microsoft.Extensions.Configuration.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Microsoft.Extensions.Primitives.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Microsoft.Extensions.Primitives.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Microsoft.IdentityModel.JsonWebTokens.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Microsoft.IdentityModel.Logging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Microsoft.IdentityModel.Tokens.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/WebAPI.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/WebAPI.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/WebAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/WebAPI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/WebAPI.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/WebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/WebAPI.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/WebAPI.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/appsettings.Development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/bin/Release/netcoreapp3.1/publish/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.RazorTargetAssemblyInfo.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.RazorTargetAssemblyInfo.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Business.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Business.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/DataAccess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Entities.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Microsoft.Extensions.Configuration.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Microsoft.Extensions.Configuration.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Microsoft.Extensions.Primitives.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Microsoft.Extensions.Primitives.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Microsoft.IdentityModel.JsonWebTokens.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Microsoft.IdentityModel.Logging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Microsoft.IdentityModel.Tokens.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Debug/netcoreapp3.1/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/WebAPI.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/WebAPI.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/WebAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/WebAPI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/WebAPI.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/WebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/WebAPI.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/WebAPI.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/appsettings.Development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PubTmp/Out/web.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PublishOutputs.c0f8263c65.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/PublishOutputs.c0f8263c65.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.RazorTargetAssemblyInfo.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.RazorTargetAssemblyInfo.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/Release/netcoreapp3.1/WebAPI.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/obj/WebAPI.csproj.EntityFrameworkCore.targets" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/WebAPI.csproj.EntityFrameworkCore.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/obj/WebAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/WebAPI.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/obj/WebAPI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/WebAPI.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/obj/WebAPI.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/obj/WebAPI.csproj.nuget.g.targets" afterDir="false" />
@@ -214,26 +273,46 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8,
+  "fromUser": false
+}]]></component>
   <component name="ProjectId" id="1xlf0og1cAuxVMBZlXv4w0oyVnJ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/usr/bin/dotnet",
+    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager" selected=".NET Project.ConsoleUI">
     <configuration name="ConsoleUI" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/ConsoleUI/ConsoleUI.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
@@ -248,13 +327,14 @@
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebAPI/WebAPI.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
       <option name="LAUNCH_PROFILE_NAME" value="WebAPI" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -263,13 +343,14 @@
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebAPI/WebAPI.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
       <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -284,6 +365,7 @@
       <option name="presentableId" value="Default" />
       <updated>1630934378156</updated>
       <workItem from="1630934380655" duration="104000" />
+      <workItem from="1781981577608" duration="1429000" />
     </task>
     <servers />
   </component>
@@ -291,9 +373,27 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
