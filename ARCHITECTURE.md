@@ -53,7 +53,7 @@ flowchart LR
     Business -. "shared infrastructure" .-> Core
 ```
 
-## VueJS App Scalable Frontend Architecture
+## VueJS App Frontend Architecture
 
 ```mermaid
 flowchart TB
